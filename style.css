@@ -1,0 +1,123 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    /* background: linear-gradient(60deg, #000000, #151414); */
+    background-color: rgb(37, 38, 38);
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #313231;
+}
+.entete{
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+}
+.logo{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px 0px;
+}
+.company_name{
+    color: rgb(252, 254, 255);
+    font-family: 'Boldonse';
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: bold;
+    font-size: 50px;
+    margin: 10px 0px;
+    text-align: center;
+}
+hr{
+    margin: auto;
+    width: 15%;
+    color: rgb(186, 184, 182);
+    height: 0.3px;
+}
+.slogan{
+    color: rgb(197, 197, 197);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5px 0px;
+    font-size: 15px;
+
+    text-align: center;
+}
+.menu{
+    border-width: thin;
+    border-bottom: groove;
+    border-color: rgb(161, 159, 157);
+}
+.element_menu{
+    display: inline-block;
+    padding: 10px 30px;
+    background: none;
+    margin: 6px 12px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(205, 205, 205);
+}
+.element_menu:hover{
+    transition: 0.4s;
+    background-color: rgb(100, 99, 99);
+}
+section{
+    width:  100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px 0px;
+}
+.bloc{
+    border-right: groove;
+    border-color: rgb(184, 185, 186);
+    margin-top: 15px;
+    padding-right: 50px;
+    padding-left: 20px;
+}
+.title_div{
+    font-family: Arial, Helvetica, sans-serif;
+    background: none;
+    margin-top: 15px;
+    color: rgb(211, 213, 215);
+}
+.about{
+    color: rgb(166, 168, 171);
+}
+ span{
+    color: rgb(196, 192, 192);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #313231;
+    display: grid;
+    grid-template-columns: 85% 15%;
+    padding: 25px;
+    margin-top: 150px;
+}
+.logos img{
+    border-radius: 48%;
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    background-color: #cacaca;
+}
+.ecrits a{
+    text-decoration: none;
+    color: #fdfdff;
+    font-family: 'Teko';
+    margin-right: 23px;
+    margin-top: auto;
+    font-size: 17px;
+}
+.ecrits a:hover{
+    text-decoration: underline;
+}
